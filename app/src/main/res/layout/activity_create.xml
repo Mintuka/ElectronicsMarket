@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:clickable="false"
+        android:onClick="gobacktomain"
+        app:srcCompat="@drawable/backicon" />
+    <ProgressBar
+        android:id="@+id/progressBarCreate"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/create_First_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/create_Last_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/ET_user"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:fontFamily="@font/bold"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/Enter_Bank_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="@string/bank"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/Enter_Account_no"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="@string/account_no"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/Enter_House_no"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="@string/house_no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/Enter_Deposit"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:fontFamily="@font/bold"
+        android:hint="Deposit"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="102dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/finish"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@color/gray"
+        android:layout_marginLeft="70sp"
+        android:onClick="create_and_pay" />
+</LinearLayout>

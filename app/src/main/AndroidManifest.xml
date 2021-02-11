@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Detail"
+            android:label="Detail"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".Create"
+            android:label="Create"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Signin"
+            android:label="Signin"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Laptops"
+            android:parentActivityName=".Welcome" />
+    </application>
+
+</manifest>

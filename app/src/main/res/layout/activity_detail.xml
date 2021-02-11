@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.materialme.DetailActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:clickable="false"
+            android:onClick="gobacktomain"
+            app:srcCompat="@drawable/backicon" />
+
+        <ImageView
+            android:id="@+id/sportsImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleDetail"
+            android:text="@string/title_placeholder"
+            android:padding="8dp"
+            android:textColor="@color/gray"
+            android:layout_alignBottom="@id/sportsImageDetail"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <Button
+            android:id="@+id/buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/sportsImageDetail"
+            android:layout_alignBottom="@+id/info"
+            android:onClick="purchase"
+            android:background="@color/gray"
+            android:text="@string/payplease"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/priceDetail"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sportsImageDetail"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="355dp"
+            android:layout_marginRight="355dp"
+            android:padding="8dp"
+            android:text="@string/news_placeholder"
+            android:textColor="?android:textColorSecondary" />
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sports_info_placeholder"
+            android:padding="8dp"
+            android:layout_below="@id/priceDetail"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Deposit"
+            android:padding="8dp"
+            android:layout_below="@id/info"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <TextView
+            android:id="@+id/Add_Deposit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/add_deposit"
+            android:padding="8dp"
+            android:onClick="showVisibility"
+            android:layout_below="@id/show"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <EditText
+            android:id="@+id/Add_deposit_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/_1500000"
+            android:padding="8dp"
+            android:visibility="invisible"
+            android:layout_below="@id/Add_Deposit"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <Button
+            android:id="@+id/Submmit_Deposit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/add"
+            android:padding="8dp"
+            android:onClick="addDeposit"
+            android:visibility="invisible"
+            android:layout_below="@id/Add_deposit_edit"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <Button
+            android:id="@+id/sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="signOut"
+            android:layout_below="@+id/Submmit_Deposit"
+            android:text="Signout"/>
+
+    </RelativeLayout>
+</ScrollView>

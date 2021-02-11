@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_view"> Electronics </string>
+    <string name="buttone_one">Buy</string>
+    <string name="buttone_two">Buy</string>
+    <string name="buttone_three">Buy</string>
+    <string name="buttone_four">Buy</string>
+    <string name="log_in">LOg-in</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="create">Create</string>
+    <string name="minte0910">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="bank">Bank Name</string>
+    <string name="account_no">Account no.</string>
+    <string name="abiyahmed2019_gmail_com">abiyahmed2019@gmail.com</string>
+    <string name="singin">Sign-in</string>
+    <string name="singout">Sign-out</string>
+    ///////////////////////////////////////////////////////////////////////
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">$499</string>
+    <string name="buy">buy</string>
+    <string name="sports_info_placeholder">Core i7 /n 16GB RAM /n 1 Tera</string>
+
+    <string name="finish">Finish</string>
+    <string name="purchase">purchase</string>
+    <string name="have_no_account">have no account?</string>
+    <string name="register">Register</string>
+    <string name="to_minalesh">to minalesh</string>
+    <string name="welcome">Welcome!</string>
+    <string name="login">Login</string>
+    <string name="house_no">House-no</string>
+    <string name="password_hint">**********</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="submmit">submmit</string>
+    <string name="Laptopsprice">price</string>
+    <string name="pay">Pay</string>
+    <string name="payplease">pay</string>
+    <string name="add">Add</string>
+    <string name="add_deposit">Add Deposit</string>
+    <string name="_1500000">1500000</string>
+
+    <string name="laptops">Laptops</string>
+    <string name="desktops">Desktops</string>
+    <string name="phones">Phones</string>
+    <string name="televisions">Televisions</string>
+
+    <string name="nav_open_drawer">Open</string>
+    <string name="nav_close_drawer">Close</string>
+
+    <string-array name="Laptop_names">
+        <item>HP-NOTEBOOK</item>
+        <item>ACER</item>
+        <item>ASUS</item>
+        <item>DELL</item>
+        <item>LENOVO</item>
+        <item>MAC</item>
+        <item>MICROSOFT</item>
+        <item>OMEN-X</item>
+        <item>RAZER BLADE</item>
+        <item>SAMSUNG</item>
+        <item>TOSHIBA</item>
+    </string-array>
+    <string-array name="Laptops_price">
+        <item>999</item>
+        <item>1499</item>
+        <item>1399</item>
+        <item>1299</item>
+        <item>599</item>
+        <item>2999</item>
+        <item>1599</item>
+        <item>2999</item>
+        <item>1999</item>
+        <item>999</item>
+        <item>399</item>
+    </string-array>
+    <string-array name="Laptops_info">
+        <item>CORE i5 SHOW MORE......</item>
+        <item>CORE i7 SHOW MORE......</item>
+        <item>CORE i7 SHOW MORE......</item>
+        <item>CORE i9 SHOW MORE.....</item>
+        <item>CORE i9 SHOW MORE.....</item>
+        <item>CORE i5 SHOW MORE.....</item>
+        <item>CORE i7 SHOW MORE.....</item>
+        <item>CORE i9 SHOW MORE.....</item>
+        <item>CORE i5 SHOW MORE.....</item>
+        <item>CORE i7 SHOW MORE.....</item>
+        <item>CORE i3 SHOW MORE.....</item>
+    </string-array>
+    <string-array name="Laptop_Buy">
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+        <item>BUY</item>
+    </string-array>
+    <array name="Laptops_Images">
+        <item>@drawable/img_hpnotebook</item>
+        <item>@drawable/img_acer</item>
+        <item>@drawable/img_asus</item>
+        <item>@drawable/img_dell</item>
+        <item>@drawable/img_lenovo</item>
+        <item>@drawable/img_mac</item>
+        <item>@drawable/img_microsoft</item>
+        <item>@drawable/img_omen_x</item>
+        <item>@drawable/img_razer_blade</item>
+        <item>@drawable/img_samsung</item>
+        <item>@drawable/img_toshiba</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Help">help</string>
+    <string name="Feedback">feedback</string>
+    <string name="title_activity_nav_">Nav_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

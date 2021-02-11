@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <group android:checkableBehavior="single">
+         <item
+             android:id="@+id/nav_Laptops"
+             android:icon="@android:drawable/sym_action_chat"
+             android:title="History" />
+         <item
+             android:id="@+id/nav_Desktops"
+             android:icon="@android:drawable/btn_plus"
+             android:title="Sign Out" />
+         <item
+             android:id="@+id/nav_Phones"
+             android:icon="@android:drawable/sym_action_call"
+             android:title="contact" />
+         <item
+             android:id="@+id/nav_Television"
+             android:icon="@android:drawable/ic_media_play"
+             android:title="Deposit" />
+     </group>
+
+    <item android:title="support">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/Help" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="@string/Feedback" />
+        </menu>
+    </item>
+</menu>
